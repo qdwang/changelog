@@ -1,0 +1,9 @@
+baseURL = 'https://qdwang.net/'
+languageCode = 'en-us'
+title = "qdwang's changelog"
+enableRobotsTXT = true
+
+[markup]
+    [markup.highlight]
+        codeFences = true
+        style = "catppuccin-latte" 

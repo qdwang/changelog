@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Title }}">
+
+    {{ partial "head.html" }}
+</head>
+
+<body>
+    <main>
+        <header>
+            <a href="{{ site.BaseURL }}" class="back"><span class="mono">
+                    &lt;~</span> <span>back to qdwang's changelog</span></a>
+        </header>
+
+        <article>
+            <h2>{{ .Title }}</h2>
+            <p class="date">Published on {{ .Date.Format "January 2, 2006" }}</p>
+
+            <div class="content">
+                {{ .Content }}
+            </div>
+        </article>
+
+        {{ partial "footer.html" }}
+    </main>
+
+</body>
+
+</html>

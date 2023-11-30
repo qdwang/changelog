@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-display: swap;
+    src: url(nunitosans.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'JetBrain Mono';
+    font-style: normal;
+    font-display: swap;
+    src: url(jetbrainmono.woff2) format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+.mono {
+    font-family: 'JetBrain Mono', monospace;
+    font-size: 13px;
+}
+.highlight {
+    border: 1px solid #999;
+    box-shadow: 3px 3px 0 #555;
+    border-radius: 8px;
+}
+pre {
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+ul {
+    margin: 8px;
+}
+li::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #79f;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+li {
+    margin: 4px 0;
+}
+code {
+    font-family: 'JetBrain Mono', monospace;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 0px 2px;
+    vertical-align: baseline;
+    color: rgb(68 151 214);
+}
+code * {
+    font-family: 'JetBrain Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.66;
+}
+main {
+    max-width: 960px;
+    margin: 16px auto;
+    padding: 0 16px;
+}
+
+article {
+    margin: 32px 0;
+}
+
+footer {
+    margin-left: 2px;
+}
+footer * {
+    font-size: 12px;
+    opacity: 0.8;
+    font-variation-settings: 'wght' 600, 'wdth' 87.5, 'ytlc' 440;
+    color: black;
+}
+footer img {
+    height: 12px;
+}
+footer a span {
+    margin-right: 4px;
+}
+
+header {
+    margin: 32px 0;
+    vertical-align: middle;
+}
+header a {
+    margin-left: 2px;
+}
+h1 {
+    display: inline-block;
+    font-variation-settings: 'wght' 800, 'wdth' 75, 'YTLC' 540;
+    font-size: 18px;
+    margin-right: 16px;
+}
+.back {
+    font-size: 16px;
+    font-variation-settings: 'wght' 600, 'wdth' 75, 'YTLC' 440;
+    margin-left: 0;
+}
+.back * {
+    color: #555;
+    font-style: italic;
+}
+table {
+    margin: 32px 0;
+}
+td {
+    font-variation-settings: 'wght' 600, 'wdth' 87.5, 'YTLC' 500;
+    vertical-align: middle;
+}
+td.date {
+    width: 120px;
+    padding-top: 1px;
+    font-variation-settings: 'wght' 200;
+}
+
+
+
+article .date {
+    font-size: 13px;
+    color: #555;
+}
+article > * {
+    font-variation-settings: 'wdth' 75, 'YTLC' 440;
+}
+article h2 {
+    font-size: 21px;
+    font-variation-settings: 'wght' 700, 'wdth' 75, 'YTLC' 440;
+}
+.content {
+    margin-top: 32px;
+}
+.content * {
+    font-variation-settings: 'wdth' 87.5, 'YTLC' 480;
+    line-height: 1.66;
+}
+.content h3 {
+    margin-top: 16px;
+    font-variation-settings: 'wght' 700, 'wdth' 90, 'YTLC' 540;
+}
