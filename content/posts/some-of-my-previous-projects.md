@@ -1,6 +1,7 @@
 +++
 title = 'Some of my projects'
-date = 2023-11-29T18:55:07+01:00
+date = 2023-11-29
+lastmod = 2023-11-29
 +++
 
 ### JPEG XL Toolbox
