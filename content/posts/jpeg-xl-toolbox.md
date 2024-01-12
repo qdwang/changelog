@@ -7,6 +7,10 @@ draft = false
 SUPPORT: **[jxl@qdwang.net](jxl@qdwang.net)**
 
 ---
+### Privacy Policy
+No data will be collected
+
+---
 
 JPEG XL Toolbox is a tool which can convert large ProRAW files to much smaller JXL files with almost no quality loss.
 
