@@ -150,3 +150,17 @@ article h2 {
     margin-top: 16px;
     font-variation-settings: 'wght' 700, 'wdth' 90, 'YTLC' 540;
 }
+
+.content strong { 
+    vertical-align: bottom;  
+    display: inline-block;
+}
+
+.content strong a {
+    font-variation-settings: 'wght' 600, 'YTLC' 540;
+}
+
+hr {
+    border-top: 1px solid black;
+    margin: 8px 0;
+}
